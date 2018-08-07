@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>WebCameraAPI</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="video">
+            <div class="buttons btn-group">
+                <button id="startVideo" class="btn btn-default">
+            <span class="glyphicon glyphicon-play"></span>
+          </button>
+                <button id="stopVideo" class="btn btn-default">
+            <span class="glyphicon glyphicon-stop"></span>
+          </button>
+                <button id="snapshot" class="btn btn-default">
+            <span class="glyphicon glyphicon-camera"></span>
+          </button>
+                <button id="record" class="btn btn-default">
+            <span class="glyphicon glyphicon-facetime-video"></span>
+          </button>
+            </div>
+            <video id="myVideo" autoplay />
+        </div>
+        <div class="preview">
+        </div>
+    </div>
+</body>
+
+</html>
